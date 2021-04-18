@@ -1,0 +1,18 @@
+---
+title: "About me"
+description: |
+  A little bit about me!
+site: distill::distill_website
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<link rel="stylesheet" href="academicons-1.9.1/css/academicons.min.css"/>
+
+**Renata Oliveira**
+
+I'm an associate Professor at the Federal Center for Technological Education of Minas Gerais. Lecturer at the Federal University of Minas Gerais. I'm also a researcher at the PLACES - PLanning for ACcESs research group with a focus on accessibility oriented planning, Urban Freight Transportation and applied spatial analysis. I'm a member of the Network on Intelligent Urban Mobility and Accessibility Research (NIUMAR) and of the Network for Organizational Studies, Society and Subjectivity (NOSS).
+

@@ -1,0 +1,84 @@
+name: "blog"
+title: "Places"
+description: |
+  Places Research Group
+author:
+  - name: "Renata Oliveira"
+    url: https://github.com/retaoliveira
+    affiliation: Centro Federal de Educação Tecnológica de Minas Gerais
+    affiliation_url: https://www.cefetmg.br
+include: ["import.R", "slides/"]
+exclude: ["docs.txt", "*.csv"]
+favicon: img/favicon.png
+
+
+creative_commons: CC BY-SA
+
+output_dir: "docs"
+
+navbar:
+  search: true
+  left:
+    - text: "About me"
+      href: index.html
+    - text: "Reseach Projects"
+      href: projects.html
+    - text: "Courses"
+      menu:
+        - text: "Urban Analytics"
+          href: ua.html
+        - text: "Business Analytics"
+          href: ba.html
+        - text: "Logistics"
+          href: log.html  
+    - text: "Publications"
+      menu:
+        - text: "Journals"
+          href: journal.html
+        - text: "Conferences"
+          href: conference.html
+        - text: "Books"
+          href: books.html
+    - text: "Blog"
+      href: blog.html
+      
+  right:
+    - icon: "fa-github"
+      href: https://github.com/retaoliveira/
+    - icon: "fa fa-envelope-o"
+      href: mailto:renataoliveira@cefetmg.br
+    - icon: "fa fa-twitter"
+      href: https://twitter.com/retaoliveira
+    - icon: "ai ai-google-scholar"
+      href: https://scholar.google.com/citations?user=V6EX45EAAAAJ
+    - icon: "ai ai-lattes"
+      href: "http://lattes.cnpq.br/2642488704355833"
+    - icon: "ai ai-researchgate"  
+      href: https://www.researchgate.net/profile/Renata_Oliveira17
+    - icon: "ai ai-orcid"  
+      href: https://orcid.org/0000-0002-9011-2342
+
+base_url: https://retaoliveira.github.io/retaoliveira
+
+output: 
+  distill::distill_article:
+    toc: true
+    css: [styles.css, academicons.css]
+
+collections:
+  posts:
+    categories: true
+    categories_metadata: false
+    authors_metadata: false
+    feed_items_max: false
+    share: [twitter, linkedin]
+  papers:
+    categories: true
+    categories_metadata: false
+    authors_metadata: false
+    feed_items_max: false
+    share: [twitter, linkedin]
+    
+twitter:
+  site: "@retaoliveira"
+  creator: "@retaoliveira"    

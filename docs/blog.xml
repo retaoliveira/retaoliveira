@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Places</title>
+    <link>https://retaoliveira.github.io/retaoliveira</link>
+    <atom:link href="https://retaoliveira.github.io/retaoliveira/blog.xml" rel="self" type="application/rss+xml"/>
+    <description>Places Research Group
+</description>
+    <image>
+      <title>Places</title>
+      <url>https://retaoliveira.github.io/retaoliveira/img/favicon.png</url>
+      <link>https://retaoliveira.github.io/retaoliveira</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Using RMarkdown</title>
+      <dc:creator>Renata Oliveira</dc:creator>
+      <link>https://retaoliveira.github.io/retaoliveira/posts/2021-04-18-using-rmarkdown</link>
+      <description>How I started using RMarkdown</description>
+      <category>R</category>
+      <category>Rmarkdown</category>
+      <guid>https://retaoliveira.github.io/retaoliveira/posts/2021-04-18-using-rmarkdown</guid>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Places</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://retaoliveira.github.io/retaoliveira/posts/welcome</link>
+      <description>Welcome to our new blog, Places. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://retaoliveira.github.io/retaoliveira/posts/welcome</guid>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

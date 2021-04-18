@@ -1,0 +1,7 @@
+---
+title: "Thoughts and ideas"
+listing: posts
+---
+
+<link rel="stylesheet" href="academicons-1.9.1/css/academicons.min.css"/>
+

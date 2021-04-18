@@ -1,0 +1,26 @@
+---
+title: "Analysis of the potential demand of automated delivery stations for e-commerce deliveries in Belo Horizonte, Brazil"
+date: "`r Sys.Date()`"
+author:
+  - name: Renata Lúcia Magalhães de Oliveira
+    url: https://places-research.github.io/places
+    affiliation: Federal Center for Technological Education of Minas Gerais
+    affiliation_url: www.cefetmg.br
+    orcid_id: 0000-0002-9011-2342
+journal: 
+  title: "Research in Transportation Economics"
+  issn: 0739-8859
+  publisher: Elsevier
+volume: 64
+issue: 4
+doi: "10.1016/j.retrec.2017.09.003"
+slug: Oliveira2017
+citation_url: http://www.sciencedirect.com/science/article/pii/S0739885917301762
+#bibliography: biblio.bib
+output:
+  distill::distill_article
+    #css: styles.css
+---
+<link rel="stylesheet" href="academicons-1.9.1/css/academicons.min.css"/>
+
+ <a href="#top">Back to top</a>
